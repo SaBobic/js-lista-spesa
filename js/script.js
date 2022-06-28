@@ -61,3 +61,9 @@ shoppingListItems += "</ul>";
 
 // Stampo la stringa in console
 console.log(shoppingListItems);
+
+//* Stampo la lista su schermo
+
+const shoppingListElement = document.querySelector('#shopping-list .list-items');
+
+shoppingListElement.innerHTML = shoppingListItems;
